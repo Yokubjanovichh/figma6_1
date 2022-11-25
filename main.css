@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+.wrapper {
+  width: 100%;
+  height: auto;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 150px;
+  margin-bottom: 117px;
+}
+.nav-list {
+  width: 450px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list a {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: -1px;
+  text-decoration: none;
+  color: #5e5d76;
+}
+
+.nav-list .nav-list-item1 {
+  color: #7368fe;
+}
+
+.nav-list .nav-btn {
+  padding: 16px 32px;
+  background: #7368fe;
+  color: #fff;
+}
+
+.group1 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 96px 0 150px;
+  margin-bottom: 321px;
+}
+
+.group1 .group1-list1 {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+.group1 .group1-list1 h1 {
+  font-family: "HK Grotesk";
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 68px;
+  letter-spacing: 0.2px;
+  margin-bottom: 24px;
+}
+
+.group1 .group1-list1 p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 34px;
+  color: #5e5d76;
+  margin-bottom: 40px;
+}
+
+.group1 .group1-list1 a {
+  width: 164px;
+  padding: 16px 0;
+  background: #7368fe;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.group1 .group1-list2 {
+  width: 50%;
+  position: relative;
+}
+
+.png {
+  position: absolute;
+  right: 44px;
+  top: -41px;
+}
+
+.group1-list2-playIcon {
+  width: 86px;
+  height: 86px;
+  position: absolute;
+  padding: 18px 18px 18px 31px;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px 10px #fff;
+  background-color: #7368fe;
+  top: 150px;
+  right: 280px;
+}
+
+.group2 {
+  width: 1242px;
+  background: #f8f8fc;
+  margin: 0px 140px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 64px 49px 64px 52px;
+  position: absolute;
+  top: -180px;
+}
+
+.group2 .box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.group2 .box a {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 34px;
+  color: #5e5d76;
+  text-decoration: none;
+}
+
+.group2 .box .box-title {
+  font-family: "HK Grotesk";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.2px;
+  margin-bottom: 34px;
+}
+
+.box-spcialLinks {
+  margin-top: 24px;
+}
+
+.box-spcialLinks a {
+  margin-right: 16px;
+}
+
+footer {
+  width: 100%;
+  height: 245px;
+  position: relative;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    #2e2c4c;
+}
+
+.admin {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 20px;
+  padding: 0px 135px;
+}
+
+.admin p {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 34px;
+  color: #f8f8fc;
+}
